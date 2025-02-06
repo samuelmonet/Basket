@@ -3,3 +3,4 @@ streamlit==1.23.0
 plotly==5.19.0
 numpy==1.23.0
 pillow==9.5.0
+euroleague-api==0.0.16

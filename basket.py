@@ -51,8 +51,12 @@ def main():
 
 	df=pd.read_csv("./PlayByPlay/get_pbp_data_with_lineups_single_season_2022.csv")
 
+	st.write(df)
+	st.write(df.PLAYTYPE.unique())
+
 	st.write(extract_lineup(df))
 	
+
 
 if __name__ == '__main__':
 	main()
